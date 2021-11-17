@@ -1,106 +1,178 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebSoft</title>
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
     <header>
-            <a href="C:/Users/Professional/Documents/IT-education/GoIT/goit-markup-hw-01/index.html">WebStudio</a>
+      <a
+        class="logo"
+        href="./index.html"
+      >
+        WebStudio
+      </a>
 
-            <nav>
-                <ul>
-                    <li><a href="/studio">Студия</a></li>
-                    <li><a href="/portfolio">Портфолио</a></li>
-                    <li><a href="/contact">Контакты</a></li>
-                </ul>
-            </nav>
+      <nav>
+        <ul>
+          <li class="studio"><a href="/studio">Студия</a></li>
+          <li class="portfolio"><a href="/portfolio">Портфолио</a></li>
+          <li class="contact"><a href="/contact">Контакты</a></li>
+        </ul>
+      </nav>
 
-            <p class="contacts">
-                <a class="header-contacts" href="mailto:info@example.com">info@example.com</a>
-                <a class="header-contacts" href="tel:+380991111111" >+38 099 111 11 11</a>
-            </p>   
+      <div class="contacts">
+        <a class="header-email" href="mailto:info@example.com">
+          info@example.com
+        </a>
+        <a class="header-tel" href="tel:+380991111111">+38 099 111 11 11</a>
+      </div>
     </header>
 
     <main>
-            <section class="order-block">
-                <h1>Эффективные решения для вашего бизнеса</h1>
-                <button type="button" name="Заказать услугу">Заказать услугу</button>
-            </section>
+      <section class="order-block">
+        <h1>Эффективные решения для вашего бизнеса</h1>
+        <button class="order-button" type="button" name="Заказать услугу">
+          <span class="order-button-text">Заказать услугу</span>
+        </button>
+      </section>
 
-            <section>
-            <ul>
-                <li>
-                    <h3>Внимание к деталям</h3>
-                    <p class="about-us-detail">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-                </li>
+      <section class="about-us-block">
+        <ul>
+          <li>
+            <h3 class="first-caption">Внимание к деталям</h3>
+            <p class="about-us-detail-first">
+              Идейные соображения, а также начало повседневной работы по
+              формированию позиции.
+            </p>
+          </li>
 
-                <li>
-                    <h3>Пунктуальность</h3>
-                    <p class="about-us-detail">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-                </li>
+          <li>
+            <h3 class="second-caption">Пунктуальность</h3>
+            <p class="about-us-detail-second">
+              Задача организации, в особенности же рамки и место обучения кадров
+              влечет за собой.
+            </p>
+          </li>
 
-                <li>
-                    <h3>Планирование</h3>
-                    <p class="about-us-detail">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-                </li>
+          <li>
+            <h3 class="third-caption">Планирование</h3>
+            <p class="about-us-detail-third">
+              Равным образом консультация с широким активом в значительной
+              степени обуславливает.
+            </p>
+          </li>
 
-                <li>
-                    <h3>Современные технологии</h3>
-                    <p class="about-us-detail">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-                </li>    
-            </ul>    
-            </section>
+          <li>
+            <h3 class="fourth-caption">Современные технологии</h3>
+            <p class="about-us-detail-fourth">
+              Значимость этих проблем настолько очевидна, что реализация
+              плановых заданий.
+            </p>
+          </li>
+        </ul>
+      </section>
 
-            <section class="what-we-do">
-                <h2>Чем мы занимаемся</h2>
-            <ul>
-                <li><img src="images/whatwedo.jpg" width="370" alt="Чем мы занимаемся"/></li>
-                <li><img src="images/whatwedo(1).jpg" width="370" alt="Чем мы занимаемся"/></li>
-                <li><img src="images/whatwedo(2).jpg" width="370" alt="Чем мы занимаемся"/></li>
-            </ul>    
-            </section>
+      <section>
+        <h2 class="what-we-do">Чем мы занимаемся</h2>
+        <ul>
+          <li class="what-we-do-first-img">
+            <img
+              src="images/main/whatwedo/whatwedo.jpg"
+              width="370"
+              alt="Чем мы занимаемся"
+            />
+          </li>
+          <li class="what-we-do-second-img">
+            <img
+              src="images/main/whatwedo/whatwedo(1).jpg"
+              width="370"
+              alt="Чем мы занимаемся"
+            />
+          </li>
+          <li class="what-we-do-third-img">
+            <img
+              src="images/main/whatwedo/whatwedo(2).jpg"
+              width="370"
+              alt="Чем мы занимаемся"
+            />
+          </li>
+        </ul>
+      </section>
 
+      <section class="our-team">
+        <h2 class="our-team-caption">Наша команда</h2>
+        <ul>
+          <li class="first-team-member-block">
+            <img class="first-team-member-photo"
+              src="images/main/ourteam/ourteam.jpg"
+              width="270"
+              alt="Наш Сотрудник"
+            />
+            <h3 class="first-team-member-name">Игорь Демьяненко</h3>
+            <p class="first-team-member-profession">Product Designer</p>
+          </li>
 
-            <section class="our-team">
-                <h2>Наша команда</h2>
-                <ul>
-                    <li>
-                        <img src="images/ourteam.jpg" width="370" alt="Наш Сотрудник"/> 
-                        <h3>Игорь Демьяненко</h3>
-                        <p>Product Designer</p>
-                    </li>   
+          <li class="second-team-member-block">
+            <img class="second-team-member-photo"
+              src="images/main/ourteam/ourteam(2).jpg"
+              width="270"
+              alt="Наш Сотрудник"
+            />
+            <h3 class="second-team-member-name">Ольга Репина</h3>
+            <p class="second-team-member-profession">Frontend Developer</p>
+          </li>
 
-                    <li>    
-                            <img src="images/ourteam(2).jpg" width="370" alt="Наш Сотрудник"/>
-                            <h3>Ольга Репина</h3>
-                            <p>Frontend Developer</p>
-                    </li>
+          <li class="third-team-member-block">
+            <img class="third-team-member-photo"
+              src="images/main/ourteam/ourteam(3).jpg"
+              width="270"
+              alt="Наш Сотрудник"
+            />
+            <h3 class="third-team-member-name">Николай Тарасов</h3>
+            <p class="third-team-member-profession">Marketing</p>
+          </li>
 
-                    <li>   
-                            <img src="images/ourteam(3).jpg" width="370" alt="Наш Сотрудник"/>
-                            <h3>Николай Тарасов</h3>
-                            <p>Marketing</p>
-                    </li>
-
-                    <li>    
-                            <img src="images/ourteam(4).jpg" width="370" alt="Наш Сотрудник"/>
-                            <h3>Михаил Ермаков</h3>
-                            <p>UI Designer</p>
-                    </li>    
-                </ul>
-            </section>
+          <li class="fourth-team-member-block">
+            <img class="fourth-team-member-photo"
+              src="images/main/ourteam/ourteam(4).jpg"
+              width="270"
+              alt="Наш Сотрудник"
+            />
+            <h3 class="fourth-team-member-name">Михаил Ермаков</h3>
+            <p class="fourth-team-member-profession">UI Designer</p>
+          </li>
+        </ul>
+      </section>
     </main>
- 
+
     <footer>
-        <a href="C:/Users/Professional/Documents/IT-education/GoIT/goit-markup-hw-01/index.html">WebStudio</a>
-            <address>
-                <p>г. Киев, пр-т Леси Украинки, 26</p><br/>
-                <a class="footer-contacts" href="mailto:info@example.com" >info@example.com</a><br/>
-                <a class="footer-contacts" href="tel:+380991111111" >+38 099 111 11 11</a><br/>
-            </address>
+      <a class="footer-logo"
+        href="C:/Users/Professional/Documents/IT-education/GoIT/goit-markup-hw-02/index.html"
+      >
+        WebStudio
+      </a>
+      <address>
+        <p>г. Киев, пр-т Леси Украинки, 26</p>
+        <br />
+        <a class="footer-email" href="mailto:info@example.com">
+          info@example.com
+        </a>
+        <br />
+        <a class="footer-tel" href="tel:+380991111111">
+          +38 099 111 11 11
+        </a>
+        <br />
+      </address>
     </footer>
-</body>
+  </body>
 </html>
